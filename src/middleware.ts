@@ -1,6 +1,6 @@
 export const config = {
     runtime: "experimental-edge",
-    unstable_allowDynamic: ["**/node_modules/lodash/lodash.js"],
+    unstable_allowDynamic: ["./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/lodash.js"],
 };
 
 import _ from "lodash";
